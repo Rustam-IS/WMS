@@ -2,3 +2,4 @@
 
 
 #define func auto
+#define var auto

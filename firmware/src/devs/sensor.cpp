@@ -12,7 +12,7 @@ struct Sensor {
         pinMode(pin, INPUT);
     }
 
-    public: func get() -> u32 {
+    public: func get() -> i32 {
         return analogRead(pin);
     }
 
